@@ -1,14 +1,9 @@
 body{
-    background: repeating-linear-gradient(
-        to right,                         /* Vertical stripes */
-        hsl(212, 45%, 89%),               /* Slate 300 */
-        hsl(212, 45%, 89%) 50px,          /* Width of lighter stripe */
-        rgba(92, 115, 135, 0.2) 50px,       /* Slightly darker stripe */
-        rgba(92, 115, 136, 0.2) 100px       /* Width of darker stripe */
-    );
+    background-color: hsl(212, 45%, 89%);
     display: flex;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
     justify-content: center;
     font-size: 15px;
+    color: hsl(218, 44%, 22%);
     font-family: [Outfit];
     src: url(https://fonts.google.com/specimen/Outfit);
     align-items: center;
