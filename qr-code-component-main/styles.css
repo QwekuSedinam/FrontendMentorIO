@@ -1,0 +1,78 @@
+body{
+    background: repeating-linear-gradient(
+        to right,                         /* Vertical stripes */
+        hsl(212, 45%, 89%),               /* Slate 300 */
+        hsl(212, 45%, 89%) 50px,          /* Width of lighter stripe */
+        rgba(50, 72, 91, 0.2) 50px,       /* Slightly darker stripe */
+        rgba(50, 72, 91, 0.2) 100px       /* Width of darker stripe */
+    );
+    display: flex;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+    justify-content: center;
+    font-size: 15px;
+    font-family: [Outfit];
+    src: url(https://fonts.google.com/specimen/Outfit);
+    align-items: center;
+    height: 100vh; 
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.container{
+    width: 320px;
+    height: 499px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+.qrImage{
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 24px;
+}
+
+.textbox{
+    width: 288px;
+    height: 131px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.Btext{
+    display: flex;
+    flex-direction: row;
+    max-width: 256px;
+    height: 52px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.Ftext{
+    display: flex;
+    flex-direction: row;
+    max-width: 256px;
+    height: 52px;
+    text-align: center;
+    font-weight: 400;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+@media only screen and (max-width: 1440px) {
+    body {
+      background-color: lightblue;
+    }
+  }
