@@ -3,8 +3,8 @@ body{
         to right,                         /* Vertical stripes */
         hsl(212, 45%, 89%),               /* Slate 300 */
         hsl(212, 45%, 89%) 50px,          /* Width of lighter stripe */
-        rgba(50, 72, 91, 0.2) 50px,       /* Slightly darker stripe */
-        rgba(50, 72, 91, 0.2) 100px       /* Width of darker stripe */
+        rgba(92, 115, 135, 0.2) 50px,       /* Slightly darker stripe */
+        rgba(92, 115, 136, 0.2) 100px       /* Width of darker stripe */
     );
     display: flex;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
     justify-content: center;
